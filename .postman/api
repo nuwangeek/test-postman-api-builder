@@ -13,3 +13,4 @@ files[] = {"id":"24874177-1bab7157-f9c2-4d6a-bd23-46ceb35e5c60","path":"test-col
 rootDirectory = postman/schemas
 
 [relations.apiDefinition.metaData]
+type = openapi:3
