@@ -60,6 +60,35 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "New Request3",
+			"id": "366f0805-a908-464d-b9b0-817c804c9d00",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get?foo1=bar1",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					],
+					"query": [
+						{
+							"key": "foo1",
+							"value": "bar1"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
